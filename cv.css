@@ -1,0 +1,202 @@
+
+
+body {
+font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: wheat;
+}
+    
+
+.h1-fontstyle {
+    padding-top: 100px;
+    margin: 0 10px;
+    font-size: 100px;
+    font-weight: 400;  
+}
+.h1-fontstyle h1 {
+    font-size: 50px;
+}
+
+.h2-fontstyle {
+    font-size: 300px;
+    margin: 0 10px;
+  
+   
+}
+.h2-fontstyle h2 {
+    font-size: 30px;
+}
+
+.para-fontstyle {
+    font-size: 16px;
+    margin: 0 10px;
+    
+}
+.para-fontstyle p {
+    font-size: 16px;
+}
+.img-style {
+    padding-top: 100px;
+    /* padding-left: 125px; */
+
+}
+
+/* main start */
+
+
+        .btn {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        /* Hover effect */
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+
+
+.about-style {
+    padding-top: 100px;
+}
+
+/* Your existing styles */
+
+
+.main-line {
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+  
+}
+
+/* Style the section header */
+#portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style the progress bars */
+.progress {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    font-size: 10px;
+    background-color: black;
+    border-radius: 30px;
+    width: 100%;
+}
+
+
+        .project-img img {
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .project-img img:hover {
+            transform: scale(1.1);
+          
+        }
+ent within each column */
+.project-img,
+.project-title {
+    text-align: center;
+}
+
+/* Style for the H1 heading */
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Style for the paragraph */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style for buttons */
+.btn {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+/* Style for the primary button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+/* Style for the secondary button */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+/* Style for the image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.border-container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.font-wala {
+    font-size: 30px;
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.contact-info p:last-child {
+    margin-right: 0;
+}
+
+.contact-info p:hover {
+    color: #FFD700; /* Change text color on hover */
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add an underline effect on hover */
+}
